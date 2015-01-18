@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">供销e通</string>
+    <string name="oldversion_error">有新版本可更新</string>
+    <string name="updateapp">现在为您更新？</string>
+    <string name="download_success">下载成功</string>
+    <string name="appdownloading">下载中...</string>
+    <string name="download_fail">下载失败</string>
+    <string name="Dialog_Ok">确定</string>
+    <string name="Dialog_Cancel">取消</string>
+    <string name="waiting">请稍等...</string>
+    <string name="loading">加载中...</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/rlPostBack" android:background="#FFFFFF">
+
+    <WebView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/webPost_Site" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"/>
+    <ProgressBar
+            android:layout_height="100px"
+            android:layout_width="100px"
+            android:id="@+id/prgsPost_Status" android:layout_centerInParent="true"/>
+</RelativeLayout>

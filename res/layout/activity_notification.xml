@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/rlNotificationBack" android:background="#FFFFFF">
+
+    <WebView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/webNotification_Site" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"/>
+    <ProgressBar
+            android:layout_height="100px"
+            android:layout_width="100px"
+            android:id="@+id/prgsNotification_Status" android:layout_centerInParent="true"/>
+</RelativeLayout>
